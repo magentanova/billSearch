@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+}
+
+.bill-col{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding: 3%;
+}
+
+.bills-container,.bill-col {
+	font-size: 0;
+}
+
+.bill-col > * {
+	font-size: medium;
+}
+
+.bill {
+    border-bottom: 1px solid black;
+}
