@@ -21,6 +21,8 @@ var billsToHTML = function(billsArray){
 		htmlString += '<h5>' + billDetails.sponsor.first_name + " " + billDetails.sponsor.last_name + '</h5>'
 		htmlString += '<h6>Introduced On: ' + billDetails.introduced_on + '</h6>'
 		htmlString += '<h6>Last Action At: ' + billDetails.last_action_at + '</h6>'
+		htmlString += '<h6>'+ billDetails.bill_id + '</h6>'
+
 		htmlString += '</div>'
 		//we should build the full htmlString and then write to innerHTML
 		//only once
