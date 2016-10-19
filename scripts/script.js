@@ -2,7 +2,7 @@
 var houseColumn = document.querySelector('.house-column'),
 	senateColumn = document.querySelector('.senate-column')
 	inputNode = document.querySelector('input'),
-	baseUrl = "http://congress.api.sunlightfoundation.com/bills/search?apikey=149a2a8730aa4936bab76017c47d8dab"
+	baseUrl = "https://congress.api.sunlightfoundation.com/bills/search?apikey=149a2a8730aa4936bab76017c47d8dab"
 
 var billsToHTML = function(billsArray){
 	var htmlString = ''
